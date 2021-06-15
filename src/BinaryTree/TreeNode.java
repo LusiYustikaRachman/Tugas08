@@ -1,10 +1,10 @@
 package BinaryTree;
 public class TreeNode {
-    int data;
+    char data;
     TreeNode left;
     TreeNode right;
     
-    public TreeNode(int data){
-        this.data = data;
+    public TreeNode (int data){
+        this.data = (char) data;
     }
 }
